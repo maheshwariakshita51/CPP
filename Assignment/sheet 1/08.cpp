@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #include<vector>
+#include<map>
 map<char,int> looptracing (string str)
 {
     map<char,int>freqcount;
