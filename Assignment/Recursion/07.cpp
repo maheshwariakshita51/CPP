@@ -1,0 +1,1 @@
+// 6 Find sum of first N natural numbers

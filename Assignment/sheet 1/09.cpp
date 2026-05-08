@@ -28,14 +28,6 @@ int main()
 }
 
 
-
-
-
-
-
-
-
-
 //FREQUENCY COUNT
 #include<bits/stdc++.h>
 using namespace std;

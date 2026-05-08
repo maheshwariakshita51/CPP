@@ -1,0 +1,29 @@
+// #include<iostream>
+// using namespace std;
+// #include<vector>
+
+// void slidingwindow(vector<int>&arr,int k )
+// {
+//     int windowsum=0;
+//     for(int i=0;i<k;i++)
+//     {
+//         windowsum+=arr[i];
+//     }
+//     int maxi = windowsum;
+//     //cout<<"maxi:"<<maxi<<"\n";
+//     for(int i=k; i<arr.size(); i++)
+//     {
+//         int newsum=windowsum-arr[i-k]+arr[i];
+//         // cout<<newsum<<"\n";
+//         maxi = max(windowsum,newsum);
+//         windowsum=newsum;
+        
+//     }
+//     cout<<maxi;
+// }
+// int main()
+// {
+//     vector<int>arr={2,3,4,1,5,2};
+//     int k=3;
+//     slidingwindow(arr,k);
+// }
